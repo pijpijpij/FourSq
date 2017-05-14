@@ -25,7 +25,7 @@ AirBnB,
 - Automated upload to Google Play,
 - Fabric,
 - Analytics.
- 
+
 
 ## Dev notes
 
