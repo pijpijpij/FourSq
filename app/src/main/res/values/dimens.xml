@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="horizontal_margin">16dp</dimen>
+
+    <dimen name="screen_edge_left">@dimen/horizontal_margin</dimen>
+    <dimen name="screen_edge_right">@dimen/horizontal_margin</dimen>
+</resources>

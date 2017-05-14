@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Venue search</string>
+
+    <string name="search_not_found">No venue named %1$s can be found.</string>
+    <string name="search_no_search">Please enter a venue name.</string>
+    <string name="search_input_hint">place name</string>
+    <string name="search_in_progress">Loading…</string>
+    <string name="snackbar_show_error">Display error details</string>
+
+
+    <string name="item_label_hint">name of a place</string>
+</resources>

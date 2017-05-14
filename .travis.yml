@@ -1,0 +1,48 @@
+language: android
+jdk: oraclejdk8
+env:
+  global:
+    - ANDROID_TARGET=android-25
+    - ANDROID_ABI=armeabi-v7a
+    - JAVA7_HOME=/usr/lib/jvm/java-7-oracle
+
+before_cache:
+  - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
+  - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
+cache:
+  directories:
+    - $HOME/.gradle/caches/
+    - $HOME/.gradle/wrapper/
+    - $HOME/.android/build-cache
+
+android:
+  components:
+  - tools
+  - platform-tools
+  - build-tools-25.0.3
+  - android-25
+  - extra-android-m2repository
+  - sys-img-${ANDROID_ABI}-${ANDROID_TARGET}
+
+before_script:
+  # Install the shared gradle init file
+  - mkdir -p $HOME/.gradle
+  - wget https://bitbucket.org/pijpijpij/init-gradle/raw/master/init.gradle -O $HOME/.gradle/init.gradle
+
+  # start an emulator
+  - echo no | android create avd --force -n test -t $ANDROID_TARGET --abi $ANDROID_ABI
+  - emulator -avd test -no-skin -no-audio -no-window &
+  - android-wait-for-emulator
+
+  # turn off all animations for Espresso
+  - adb shell settings put global window_animation_scale 0
+  - adb shell settings put global transition_animation_scale 0
+  - adb shell settings put global animator_animation_scale 0
+  # Unlock the screen(?)
+  - adb shell input keyevent 82 &
+
+# Not sure there's any need to skip code verification
+# - adb shell setprop dalvik.vm.dexopt-flags v=n,o=v
+
+script:
+  - ./gradlew --no-daemon --stacktrace check assembleRelease connectedCheck
