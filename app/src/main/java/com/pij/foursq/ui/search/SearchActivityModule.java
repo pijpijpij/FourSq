@@ -1,4 +1,4 @@
-package com.pij.foursq.search;
+package com.pij.foursq.ui.search;
 
 import com.pij.dagger.ActivityScope;
 import com.pij.foursq.interactor.Searcher;
@@ -11,7 +11,6 @@ import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
 /**
- * <p>Created on 08/04/2017.</p>
  * @author Pierrejean
  */
 @Module

@@ -1,4 +1,4 @@
-package com.pij.foursq.search;
+package com.pij.foursq.ui.search;
 
 import com.pij.foursq.interactor.Searcher;
 
@@ -42,11 +42,11 @@ public class SearchViewModelTest {
         sut.places().subscribe(subscriber);
 
         // when
-        sut.search("");
+        sut.search("a name");
 
         // then
         subscriber.assertNoErrors();
-        subscriber.assertValues(ResultEvent.started(), ResultEvent.failed("some problem"));
+        subscriber.assertValues(ResultEvent.started("a name"), ResultEvent.failed("a name", "some problem"));
     }
 
     @Test
@@ -57,10 +57,10 @@ public class SearchViewModelTest {
         sut.places().subscribe(subscriber);
 
         // when
-        sut.search("");
+        sut.search("a name");
 
         // then
         subscriber.assertNoErrors();
-        subscriber.assertValues(ResultEvent.started(), ResultEvent.completed(emptyList()));
+        subscriber.assertValues(ResultEvent.started("a name"), ResultEvent.completed("a name", emptyList()));
     }
 }

@@ -1,4 +1,4 @@
-package com.pij.foursq.search;
+package com.pij.foursq.ui.search;
 
 import com.pij.dagger.ActivityScope;
 
@@ -6,7 +6,6 @@ import dagger.Subcomponent;
 import dagger.android.AndroidInjector;
 
 /**
- * <p>Created on 08/04/2017.</p>
  * @author Pierrejean
  */
 

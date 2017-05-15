@@ -14,24 +14,32 @@ AirBnB,
 ## Scope
 
 ### In
-- MVVM
-- Unit tests
-- Espresso tests
+- MVVM with RxJava. One characteristic is that View nor ViewModel do NOT handle threads. It's the Interactors that do,
+- Retrofit and Moshi,
+- AutoValue for DTO and Network data,
+- Some Unit tests (randomly chosen)
+- Espresso tests (Just to show how they can be setup)
 - Build in Travis CI
 
 ### Out
+- Proguard
 - Breaking the code in modules
 - Automated release management,
 - Automated upload to Google Play,
 - Fabric,
 - Analytics.
 
+## No time for
+Mock web server to use in **repeatable** Espresso tests.
 
 ## Dev notes
 
 ### Some tools
 The other tools I need:
-- LeakCanary 
+- LeakCanary,
+- Butterknife
+- RxJava on Android: RxBindings, RxAndroid... 
+- Apache common Lang and Collections
 
 ## Design considerations
 

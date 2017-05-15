@@ -1,4 +1,4 @@
-package com.pij.foursq.search;
+package com.pij.foursq.ui.search;
 
 import android.support.annotation.LayoutRes;
 import android.support.annotation.NonNull;
@@ -8,7 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.pij.foursq.model.Place;
+import com.pij.foursq.ui.model.Place;
 
 import java.util.List;
 

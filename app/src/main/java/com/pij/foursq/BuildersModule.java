@@ -2,8 +2,8 @@ package com.pij.foursq;
 
 import android.app.Activity;
 
-import com.pij.foursq.search.SearchActivity;
-import com.pij.foursq.search.SearchActivitySubComponent;
+import com.pij.foursq.ui.search.SearchActivity;
+import com.pij.foursq.ui.search.SearchActivitySubComponent;
 
 import dagger.Binds;
 import dagger.Module;

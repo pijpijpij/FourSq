@@ -1,10 +1,10 @@
-package com.pij.foursq.search;
+package com.pij.foursq.ui.search;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
 import com.google.auto.value.AutoValue;
-import com.pij.foursq.model.Place;
+import com.pij.foursq.ui.model.Place;
 
 import java.util.List;
 
@@ -18,19 +18,19 @@ import static java.util.Collections.emptyList;
 @AutoValue
 abstract class ResultEvent {
 
-    public static ResultEvent started(String name) {
+    static ResultEvent started(String name) {
         return new AutoValue_ResultEvent(name, true, emptyList(), null);
     }
 
-    public static ResultEvent completed(String name, @NonNull List<Place> places) {
+    static ResultEvent completed(String name, @NonNull List<Place> places) {
         return new AutoValue_ResultEvent(name, false, places, null);
     }
 
-    public static ResultEvent failed(String name, @NonNull String errorMessage) {
+    static ResultEvent failed(String name, @NonNull String errorMessage) {
         return new AutoValue_ResultEvent(name, false, emptyList(), errorMessage);
     }
 
-    public static ResultEvent failed(String name, @NonNull Throwable error) {
+    static ResultEvent failed(String name, @NonNull Throwable error) {
         return failed(name, error.getMessage());
     }
 

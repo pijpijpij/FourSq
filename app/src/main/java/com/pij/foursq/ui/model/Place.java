@@ -1,4 +1,4 @@
-package com.pij.foursq.model;
+package com.pij.foursq.ui.model;
 
 import com.google.auto.value.AutoValue;
 

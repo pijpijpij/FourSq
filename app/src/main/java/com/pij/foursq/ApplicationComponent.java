@@ -1,6 +1,7 @@
 package com.pij.foursq;
 
 import com.pij.foursq.interactor.BuildTypeModule;
+import com.pij.foursq.net.NetModule;
 
 import javax.inject.Singleton;
 
@@ -13,7 +14,11 @@ import dagger.android.support.AndroidSupportInjectionModule;
  * @author Pierrejean
  */
 @Component(modules = {
-        ApplicationModule.class, BuildTypeModule.class, AndroidSupportInjectionModule.class, BuildersModule.class
+        ApplicationModule.class,
+        BuildTypeModule.class,
+        AndroidSupportInjectionModule.class,
+        BuildersModule.class,
+        NetModule.class
 })
 @Singleton
 interface ApplicationComponent {

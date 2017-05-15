@@ -1,6 +1,7 @@
-package com.pij.foursq.search;
+package com.pij.foursq.ui.search;
 
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
@@ -12,6 +13,7 @@ import com.pij.foursq.R;
 
 import javax.inject.Inject;
 
+import butterknife.BindString;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
@@ -32,9 +34,11 @@ public class SearchActivity extends DaggerAppCompatActivity {
     TextView empty;
     @BindView(R.id.search_list)
     RecyclerView list;
+    @BindString(R.string.search_no_search)
+    String noSearch;
+
     @Inject
     SearchViewModel viewModel;
-
     private Unbinder unbinder;
     private CompositeSubscription subscriptions = new CompositeSubscription();
     private SearchAdapter adapter;
@@ -78,7 +82,6 @@ public class SearchActivity extends DaggerAppCompatActivity {
 
     public void notifyError(Throwable error) {
         error.printStackTrace();
-        //TODO add a dialog to display detail of exception stack.
         Snackbar.make(input, "Error: " + error, Snackbar.LENGTH_LONG)
                 .setAction(R.string.snackbar_show_error, null)
                 .show();
@@ -89,23 +92,26 @@ public class SearchActivity extends DaggerAppCompatActivity {
             list.setVisibility(View.INVISIBLE);
             empty.setText(R.string.search_in_progress);
             empty.setVisibility(View.VISIBLE);
-        } else if (result.errorMessage() != null) {
-            list.setVisibility(View.INVISIBLE);
-            empty.setText(result.errorMessage());
-            empty.setVisibility(View.VISIBLE);
         } else {
-            adapter.setItems(result.places());
-            list.setVisibility(View.VISIBLE);
-
             if (result.places().isEmpty()) {
-                String emptyText = isBlank(result.name())
-                                   ? getString(R.string.search_no_search)
-                                   : getString(R.string.search_not_found, result.name());
+                String emptyText = calculateEmptyStringForName(result.name());
                 empty.setText(emptyText);
                 empty.setVisibility(View.VISIBLE);
             } else {
                 empty.setVisibility(View.INVISIBLE);
             }
+
+            if (result.errorMessage() != null) {
+                //noinspection ConstantConditions
+                Snackbar.make(list, result.errorMessage(), Snackbar.LENGTH_LONG).show();
+            }
+            adapter.setItems(result.places());
+            list.setVisibility(View.VISIBLE);
         }
+    }
+
+    @NonNull
+    private String calculateEmptyStringForName(String name) {
+        return isBlank(name) ? noSearch : getString(R.string.search_not_found, name);
     }
 }

@@ -35,15 +35,18 @@ android {
         versionName project.version
         vectorDrawables.useSupportLibrary = true
         resConfigs "en", "fr"
+        buildConfigField "String", "CLIENT_ID", hasProperty('CLIENT_ID') ? "\"$project.CLIENT_ID\"" : "\"no client id\""
+        buildConfigField "String", "CLIENT_SECRET", hasProperty('CLIENT_SECRET') ? "\"$project.CLIENT_SECRET\"" :
+                "\"no client secret\""
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
         debug {
             testCoverageEnabled true
-            buildConfigField "boolean", "USE_FABRIC", "false"
+            buildConfigField "String", "FOURSQUARE_ENDPOINT", "\"https://api.foursquare.com/v2/\""
         }
-        // We don't do release since we don't have singing for it.
+        // We don't do release since we don't have signing for it.
     }
 }
 
@@ -52,16 +55,15 @@ dependencies {
     compile "com.android.support:recyclerview-v7:$supportVersion"
     compile "com.android.support:cardview-v7:$supportVersion"
     compile "com.android.support:design:$supportVersion"
-    compile "com.android.support:percent:$supportVersion"
     compile "com.jakewharton:butterknife:$butterknifeVersion"
     annotationProcessor "com.jakewharton:butterknife-compiler:$butterknifeVersion"
 
     provided "com.google.auto.value:auto-value:$autoValueVersion"
 
+
     compile "com.android.support:support-annotations:$supportVersion"
     compile "org.apache.commons:commons-lang3:$commonsLangVersion"
     compile "org.apache.commons:commons-collections4:$commonsCollectionsVersion"
-    compile "commons-io:commons-io:$commonsIoVersion"
 //    compile "com.google.dagger:dagger-android:${daggerVersion}"
     compile "com.google.dagger:dagger-android-support:$daggerVersion"
     annotationProcessor "com.google.dagger:dagger-compiler:$daggerVersion"
@@ -70,6 +72,13 @@ dependencies {
     compile "io.reactivex:rxjava:$rxJavaVersion"
     compile "com.jakewharton.rxbinding:rxbinding:$rxBindingsVersion"
     compile "io.reactivex:rxandroid:$rxAndroidVersion"
+
+    compile "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    compile "com.squareup.retrofit2:adapter-rxjava:$retrofitVersion"
+    compile "com.squareup.retrofit2:converter-moshi:$retrofitVersion"
+    compile "com.squareup.okhttp3:logging-interceptor:$okHttpVersion"
+    annotationProcessor "com.ryanharter.auto.value:auto-value-moshi:$autoValueMoshiVersion"
+    provided "com.ryanharter.auto.value:auto-value-moshi-annotations:$autoValueMoshiVersion"
 
     debugCompile rootProject.ext.ciBuild ?
             "com.squareup.leakcanary:leakcanary-android-no-op:$leakCanaryVersion" :

@@ -1,4 +1,4 @@
-package com.pij.foursq.search;
+package com.pij.foursq.ui.search;
 
 
 import android.support.test.rule.ActivityTestRule;

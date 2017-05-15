@@ -1,9 +1,8 @@
-package com.pij.foursq.search;
+package com.pij.foursq.ui.search;
 
 import com.pij.foursq.interactor.Searcher;
 
 import rx.Observable;
-import rx.android.schedulers.AndroidSchedulers;
 import rx.subjects.PublishSubject;
 
 /**

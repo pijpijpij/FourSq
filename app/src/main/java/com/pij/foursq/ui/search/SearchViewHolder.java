@@ -1,18 +1,17 @@
-package com.pij.foursq.search;
+package com.pij.foursq.ui.search;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
 
 import com.pij.foursq.R;
-import com.pij.foursq.model.Place;
+import com.pij.foursq.ui.model.Place;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import rx.subscriptions.CompositeSubscription;
 
 /**
- * <p>Created on 06/04/2017.</p>
  * @author Pierrejean
  */
 class SearchViewHolder extends RecyclerView.ViewHolder {

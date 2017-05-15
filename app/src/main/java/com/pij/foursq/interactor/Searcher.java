@@ -1,6 +1,6 @@
 package com.pij.foursq.interactor;
 
-import com.pij.foursq.model.Place;
+import com.pij.foursq.ui.model.Place;
 
 import java.util.List;
 
