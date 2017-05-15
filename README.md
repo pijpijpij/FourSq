@@ -54,7 +54,7 @@ Miscellaneous points/decision made while coding this:
 
 ## Automated build status
 Thanks [Travis-CI](https://travis-ci.org) for providing a build system. The status of the last master build: 
-[![Build Status](https://travis-ci.org/pijpijpij/Whitbread.svg?branch=master)](https://travis-ci.org/pijpijpij/Whitbread)
+[![Build Status](https://travis-ci.org/pijpijpij/FourSq.svg?branch=master)](https://travis-ci.org/pijpijpij/FourSq)
 
 
 # License
