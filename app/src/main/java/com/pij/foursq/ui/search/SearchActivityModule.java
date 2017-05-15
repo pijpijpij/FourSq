@@ -1,14 +1,17 @@
 package com.pij.foursq.ui.search;
 
 import com.pij.dagger.ActivityScope;
+import com.pij.foursq.ThreadingModule;
 import com.pij.foursq.interactor.Searcher;
 
 import java.util.concurrent.TimeUnit;
 
+import javax.inject.Named;
+
 import dagger.Module;
 import dagger.Provides;
-import rx.android.schedulers.AndroidSchedulers;
-import rx.schedulers.Schedulers;
+import rx.Observable;
+import rx.Scheduler;
 
 /**
  * @author Pierrejean
@@ -18,10 +21,15 @@ abstract class SearchActivityModule {
 
     @Provides
     @ActivityScope
-    static SearchViewModel provideSearchViewModel(Searcher searcher) {
-        return new SearchViewModel(searcher,
-                                   input -> input.debounce(300, TimeUnit.MILLISECONDS, Schedulers.io())
-                                                 .observeOn(AndroidSchedulers.mainThread()));
+    static SearchViewModel provideSearchViewModel(Searcher searcher, Observable.Transformer<String, String> debouncer) {
+        return new SearchViewModel(searcher, debouncer);
     }
 
+    @Provides
+    @ActivityScope
+    static Observable.Transformer<String, String> provideDebouncer(
+            @Named(ThreadingModule.BACKGROUND_THREAD) Scheduler background,
+            @Named(ThreadingModule.MAIN_THREAD) Scheduler foreground) {
+        return input -> input.debounce(300, TimeUnit.MILLISECONDS, background).observeOn(foreground);
+    }
 }

@@ -34,8 +34,8 @@ public class NetSearcher implements Searcher {
     private final Converter<ResponseBody, ErrorResponse> errorConverter;
 
     @Inject
-    public NetSearcher(FourSquareApi api, DtoConverter<Venue, Place> dtoConverter,
-                       Converter<ResponseBody, ErrorResponse> errorConverter) {
+    NetSearcher(FourSquareApi api, DtoConverter<Venue, Place> dtoConverter,
+                Converter<ResponseBody, ErrorResponse> errorConverter) {
         this.api = api;
         this.dtoConverter = dtoConverter;
         this.errorConverter = errorConverter;
@@ -43,7 +43,7 @@ public class NetSearcher implements Searcher {
 
     @Override
     public Single<List<Place>> findByName(String name) {
-        Observable<Response<SearchResults>> search = api.search(name).publish().refCount();
+        Observable<Response<SearchResults>> search = api.search(name).replay(1).autoConnect();
         Observable<List<Place>> success = search.filter(Response::isSuccessful)
                                                 .map(Response::body)
                                                 .map(SearchResults::response)
@@ -56,8 +56,6 @@ public class NetSearcher implements Searcher {
                                                 .map(this::convertToError)
                                                 .map(response -> response == null ? null : response.meta())
                                                 .map(meta -> meta == null ? "Unknown reason" : meta.errorDetail())
-                                                //                                                .onErrorResumeNext
-                                                // (e -> Observable.just(e.getMessage()))
                                                 .map(RuntimeException::new)
                                                 .flatMap(Observable::error);
         return Observable.merge(success, failure).toSingle();

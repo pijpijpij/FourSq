@@ -17,14 +17,15 @@ import com.pij.foursq.ui.search.SearchActivitySubComponent;
 
 import java.lang.annotation.Annotation;
 
+import javax.inject.Named;
+
 import dagger.Binds;
 import dagger.Module;
 import dagger.Provides;
 import okhttp3.ResponseBody;
 import retrofit2.Converter;
 import retrofit2.Retrofit;
-import rx.android.schedulers.AndroidSchedulers;
-import rx.schedulers.Schedulers;
+import rx.Scheduler;
 
 /**
  * <p>Created on 08/04/2017.</p>
@@ -56,8 +57,10 @@ abstract class ApplicationModule {
 
     // Interactor and Co.
     @Provides
-    static Searcher provideSearcher(NetSearcher searcher) {
-        return new BackgroundSearcher(searcher, Schedulers.io(), AndroidSchedulers.mainThread());
+    static Searcher provideSearcher(NetSearcher searcher,
+                                    @Named(ThreadingModule.BACKGROUND_THREAD) Scheduler background,
+                                    @Named(ThreadingModule.MAIN_THREAD) Scheduler foreground) {
+        return new BackgroundSearcher(searcher, background, foreground);
     }
 
     @Provides

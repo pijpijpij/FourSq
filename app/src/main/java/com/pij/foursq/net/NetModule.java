@@ -10,8 +10,11 @@ import org.apache.commons.lang3.tuple.Pair;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.inject.Named;
+
 import dagger.Module;
 import dagger.Provides;
+import okhttp3.Interceptor;
 import okhttp3.OkHttpClient;
 import retrofit2.CallAdapter;
 import retrofit2.Converter;
@@ -19,6 +22,7 @@ import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 import retrofit2.converter.moshi.MoshiConverterFactory;
 
+import static org.apache.commons.collections4.IterableUtils.forEach;
 import static org.apache.commons.lang3.tuple.Pair.of;
 
 /**
@@ -34,10 +38,11 @@ public abstract class NetModule {
 
     @Provides
     static Retrofit provideRetrofit(Converter.Factory converterFactory, CallAdapter.Factory callAdapterFactory,
-                                    OkHttpClient client) {
+                                    OkHttpClient client, @Named(NetConfigModule.ENDPOINT) String endpoint) {
         return new Retrofit.Builder().addConverterFactory(converterFactory)
                                      .addCallAdapterFactory(callAdapterFactory)
-                                     .baseUrl(BuildConfig.FOURSQUARE_ENDPOINT).client(client)
+                                     .baseUrl(endpoint)
+                                     .client(client)
                                      .build();
     }
 
@@ -54,6 +59,13 @@ public abstract class NetModule {
     }
 
     @Provides
+    static OkHttpClient provideOkHttpClient(List<Interceptor> interceptors) {
+        OkHttpClient.Builder builder = new OkHttpClient.Builder();
+        forEach(interceptors, builder::addInterceptor);
+        return builder.build();
+    }
+
+    @Provides
     static QueryParamsInterceptor provideAuthenticatingInterceptor() {
         List<Pair<String, String>> pairs = new ArrayList<>();
         pairs.add(of("client_id", BuildConfig.CLIENT_ID));
@@ -63,4 +75,5 @@ public abstract class NetModule {
 
         return new QueryParamsInterceptor(pairs);
     }
+
 }

@@ -3,6 +3,7 @@ package com.pij.foursq;
 import android.app.Activity;
 import android.support.v4.app.Fragment;
 
+import com.pij.foursq.net.NetConfigModule;
 import com.squareup.leakcanary.LeakCanary;
 
 import javax.inject.Inject;
@@ -67,6 +68,6 @@ public class Application extends android.app.Application
     }
 
     private ApplicationComponent defaultComponent() {
-        return DaggerApplicationComponent.builder().application(this).build();
+        return DaggerApplicationComponent.builder().netConfig(new NetConfigModule()).build();
     }
 }

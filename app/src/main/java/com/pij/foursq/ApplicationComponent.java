@@ -1,11 +1,11 @@
 package com.pij.foursq;
 
 import com.pij.foursq.interactor.BuildTypeModule;
+import com.pij.foursq.net.NetConfigModule;
 import com.pij.foursq.net.NetModule;
 
 import javax.inject.Singleton;
 
-import dagger.BindsInstance;
 import dagger.Component;
 import dagger.android.support.AndroidSupportInjectionModule;
 
@@ -18,7 +18,9 @@ import dagger.android.support.AndroidSupportInjectionModule;
         BuildTypeModule.class,
         AndroidSupportInjectionModule.class,
         BuildersModule.class,
-        NetModule.class
+        NetModule.class,
+        NetConfigModule.class,
+        ThreadingModule.class
 })
 @Singleton
 interface ApplicationComponent {
@@ -28,8 +30,10 @@ interface ApplicationComponent {
     @Component.Builder
     interface Builder {
 
-        @BindsInstance
-        Builder application(Application application);
+        Builder netConfig(NetConfigModule netConfig);
+
+        // Not required
+        Builder threadingConfig(ThreadingModule threading);
 
         ApplicationComponent build();
     }

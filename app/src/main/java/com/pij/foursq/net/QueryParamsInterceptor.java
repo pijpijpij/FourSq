@@ -23,7 +23,7 @@ public class QueryParamsInterceptor implements Interceptor {
 
     private final List<Pair<String, String>> parameters;
 
-    public QueryParamsInterceptor(List<Pair<String, String>> parameters) {
+    QueryParamsInterceptor(List<Pair<String, String>> parameters) {
         this.parameters = new ArrayList<>(parameters);
     }
 

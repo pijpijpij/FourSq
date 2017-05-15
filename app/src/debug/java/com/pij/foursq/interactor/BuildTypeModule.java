@@ -2,10 +2,14 @@ package com.pij.foursq.interactor;
 
 import com.pij.foursq.net.QueryParamsInterceptor;
 
+import java.util.List;
+
 import dagger.Module;
 import dagger.Provides;
-import okhttp3.OkHttpClient;
+import okhttp3.Interceptor;
 import okhttp3.logging.HttpLoggingInterceptor;
+
+import static java.util.Arrays.asList;
 
 /**
  * @author Pierrejean
@@ -15,10 +19,10 @@ import okhttp3.logging.HttpLoggingInterceptor;
 public abstract class BuildTypeModule {
 
     @Provides
-    static OkHttpClient provideOkHttpClient(QueryParamsInterceptor queryParamsInterceptor) {
+    static List<Interceptor> provideInterceptors(QueryParamsInterceptor queryParamsInterceptor) {
         HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
         logging.setLevel(HttpLoggingInterceptor.Level.BODY);
-        return new OkHttpClient.Builder().addInterceptor(queryParamsInterceptor).addInterceptor(logging).build();
+        return asList(queryParamsInterceptor, logging);
     }
 
 }
