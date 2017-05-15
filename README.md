@@ -1,4 +1,4 @@
-# Whitbread
+# Four Square Integration
 
 ## Introduction
 This is my implementation of a [technical test for Whitbread](https://github.com/whitbread-eos/product-developer-test).
