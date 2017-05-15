@@ -1,5 +1,7 @@
 package com.pij.foursq.interactor;
 
+import android.support.annotation.Nullable;
+
 import com.pij.foursq.net.FourSquareApi;
 import com.pij.foursq.net.model.ErrorResponse;
 import com.pij.foursq.net.model.SearchResults;
@@ -61,7 +63,8 @@ public class NetSearcher implements Searcher {
         return Observable.merge(success, failure).toSingle();
     }
 
-    private ErrorResponse convertToError(ResponseBody body) {
+    @Nullable
+    private ErrorResponse convertToError(@Nullable ResponseBody body) {
         try {
             return body == null ? null : errorConverter.convert(body);
         } catch (IOException e) {

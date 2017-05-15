@@ -21,6 +21,7 @@ ext {
     assertjAndroidVersion = '1.1.1'
     espressoVersion = '2.2.2'
     runnerVersion = '0.5'
+    restMockVersion = '0.2.1'
 
     commonsLangVersion = '3.4'
     commonsCollectionsVersion = '4.1'
