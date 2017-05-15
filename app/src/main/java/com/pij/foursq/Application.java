@@ -58,12 +58,12 @@ public class Application extends android.app.Application
 
     public void setComponent(ApplicationComponent newValue) {
         component = newValue;
+        component.inject(this);
     }
 
     private void injectSelf() {
         if (component == null) {
             setComponent(defaultComponent());
-            component.inject(this);
         }
     }
 

@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "code": 400,
+    "errorType": "failed_geocode",
+    "errorDetail": "Couldn't geocode param near: C",
+    "requestId": "591a24139fb6b70515f134f4"
+  },
+  "response": {}
+}

@@ -12,10 +12,16 @@ import dagger.Provides;
 @Module
 public class MockNetConfigModule extends NetConfigModule {
 
+    private final String endpoint;
+
+    public MockNetConfigModule(String endpoint) {
+        this.endpoint = endpoint;
+    }
+
     @Provides
     @Named(NetConfigModule.ENDPOINT)
     public String provideEndpoint() {
-        return "/";
+        return endpoint;
     }
 
 }

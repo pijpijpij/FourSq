@@ -1,0 +1,1863 @@
+{
+  "meta": {
+    "code": 200,
+    "requestId": "591a3089dd579766b5a40c92"
+  },
+  "response": {
+    "venues": [
+      {
+        "id": "57fde91f498e1f97f27e74eb",
+        "name": "Live Wire Lounge",
+        "location": {
+          "lat": 41.85003,
+          "lng": -87.65005,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 41.85003,
+              "lng": -87.65005
+            }
+          ],
+          "cc": "US",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "United States",
+          "formattedAddress": [
+            "Chicago, IL",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1e5931735",
+            "name": "Music Venue",
+            "pluralName": "Music Venues",
+            "shortName": "Music Venue",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/arts_entertainment\/musicvenue_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 1,
+          "usersCount": 1,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1494888585",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "58087539d67c9dc770be5d63",
+        "name": "High Concept Laboratories",
+        "location": {
+          "lat": 41.85003,
+          "lng": -87.65005,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 41.85003,
+              "lng": -87.65005
+            }
+          ],
+          "cc": "US",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "United States",
+          "formattedAddress": [
+            "Chicago, IL",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1e5931735",
+            "name": "Music Venue",
+            "pluralName": "Music Venues",
+            "shortName": "Music Venue",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/arts_entertainment\/musicvenue_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 5,
+          "usersCount": 5,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1494888585",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "55356320498eb65835b26b0b",
+        "name": "South Side Smoke Shop Stop",
+        "location": {
+          "lat": 41.849632153161735,
+          "lng": -87.65115737915039,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 41.849632153161735,
+              "lng": -87.65115737915039
+            }
+          ],
+          "cc": "US",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "United States",
+          "formattedAddress": [
+            "Chicago, IL",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1ff941735",
+            "name": "Miscellaneous Shop",
+            "pluralName": "Miscellaneous Shops",
+            "shortName": "Shop",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/shops\/default_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 2,
+          "usersCount": 1,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1494888585",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "56301be6498e7118134514ad",
+        "name": "battaglia parking lot\/dock",
+        "location": {
+          "address": "2500 S Ashland",
+          "lat": 41.847945863906496,
+          "lng": -87.66622113271299,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 41.847945863906496,
+              "lng": -87.66622113271299
+            }
+          ],
+          "cc": "US",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "United States",
+          "formattedAddress": [
+            "2500 S Ashland",
+            "Chicago, IL",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4c38df4de52ce0d596b336e1",
+            "name": "Parking",
+            "pluralName": "Parking",
+            "shortName": "Parking",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/parking_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 113,
+          "usersCount": 7,
+          "tipCount": 0
+        },
+        "venueRatingBlacklisted": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1494888585",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4c4200ffce54e21e9bf70b1a",
+        "name": "City of Chicago (Chicago)",
+        "location": {
+          "lat": 41.87691065423128,
+          "lng": -87.62454986572266,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 41.87691065423128,
+              "lng": -87.62454986572266
+            }
+          ],
+          "cc": "US",
+          "state": "Illinois",
+          "country": "United States",
+          "formattedAddress": [
+            "Illinois",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "50aa9e094b90af0d42d5de0d",
+            "name": "City",
+            "pluralName": "Cities",
+            "shortName": "City",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/parks_outdoors\/neighborhood_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": true,
+        "stats": {
+          "checkinsCount": 129643,
+          "usersCount": 45890,
+          "tipCount": 160
+        },
+        "venueRatingBlacklisted": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "venuePage": {
+          "id": "110748115"
+        },
+        "storeId": "",
+        "hereNow": {
+          "count": 1,
+          "summary": "One other person is here",
+          "groups": [
+            {
+              "type": "others",
+              "name": "Other people here",
+              "count": 1,
+              "items": []
+            }
+          ]
+        },
+        "referralId": "v-1494888585",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4b96fb21f964a520a5f134e3",
+        "name": "CTA - Halsted",
+        "location": {
+          "address": "2520 S Archer Ave",
+          "crossStreet": "at S Halsted St",
+          "lat": 41.84681894526261,
+          "lng": -87.64776706695557,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 41.84681894526261,
+              "lng": -87.64776706695557
+            }
+          ],
+          "postalCode": "60608",
+          "cc": "US",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "United States",
+          "formattedAddress": [
+            "2520 S Archer Ave (at S Halsted St)",
+            "Chicago, IL 60608",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d129951735",
+            "name": "Train Station",
+            "pluralName": "Train Stations",
+            "shortName": "Train Station",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/travel\/trainstation_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 9453,
+          "usersCount": 2015,
+          "tipCount": 11
+        },
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1494888585",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4c4dcde9ea24c9b6b9ccac14",
+        "name": "Pilsen",
+        "location": {
+          "lat": 41.85787785608759,
+          "lng": -87.65967599350165,
+          "cc": "US",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "United States",
+          "formattedAddress": [
+            "Chicago, IL",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4f2a25ac4b909258e854f55f",
+            "name": "Neighborhood",
+            "pluralName": "Neighborhoods",
+            "shortName": "Neighborhood",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/parks_outdoors\/neighborhood_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 13578,
+          "usersCount": 2050,
+          "tipCount": 14
+        },
+        "venueRatingBlacklisted": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1494888585",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "520bfbe011d299882aa190a7",
+        "name": "Moody Tongue Brewery",
+        "location": {
+          "address": "2136 S Peoria St",
+          "lat": 41.85294071095589,
+          "lng": -87.6483678817749,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 41.85294071095589,
+              "lng": -87.6483678817749
+            }
+          ],
+          "postalCode": "60608",
+          "cc": "US",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "United States",
+          "formattedAddress": [
+            "2136 S Peoria St",
+            "Chicago, IL 60608",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "50327c8591d4c4b30a586d5d",
+            "name": "Brewery",
+            "pluralName": "Breweries",
+            "shortName": "Brewery",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/brewery_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 239,
+          "usersCount": 187,
+          "tipCount": 8
+        },
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1494888585",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4b7a0419f964a520371f2fe3",
+        "name": "CTA Bus 8",
+        "location": {
+          "crossStreet": "Halsted",
+          "lat": 41.86478944473306,
+          "lng": -87.64699241340689,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 41.86478944473306,
+              "lng": -87.64699241340689
+            }
+          ],
+          "postalCode": "60608",
+          "cc": "US",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "United States",
+          "formattedAddress": [
+            "Halsted",
+            "Chicago, IL 60608",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d12b951735",
+            "name": "Bus Line",
+            "pluralName": "Bus Lines",
+            "shortName": "Bus",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/travel\/busstation_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 3820,
+          "usersCount": 795,
+          "tipCount": 10
+        },
+        "venueRatingBlacklisted": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1494888585",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "555f7b95498e2f2bd6859b71",
+        "name": "Chicago Helicopter Experience",
+        "location": {
+          "address": "2420 S Halsted St",
+          "lat": 41.84844850964949,
+          "lng": -87.64758018474052,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 41.84844850964949,
+              "lng": -87.64758018474052
+            }
+          ],
+          "postalCode": "60608",
+          "cc": "US",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "United States",
+          "formattedAddress": [
+            "2420 S Halsted St",
+            "Chicago, IL 60608",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "56aa371ce4b08b9a8d57356e",
+            "name": "Heliport",
+            "pluralName": "Heliports",
+            "shortName": "Heliport",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/travel\/default_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 263,
+          "usersCount": 160,
+          "tipCount": 0
+        },
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1494888585",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "510d354ce4b0eaed1712b7a4",
+        "name": "M'bellish hair studio",
+        "location": {
+          "lat": 41.849857330322266,
+          "lng": -87.64726257324219,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 41.849857330322266,
+              "lng": -87.64726257324219
+            }
+          ],
+          "postalCode": "60608",
+          "cc": "US",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "United States",
+          "formattedAddress": [
+            "Chicago, IL 60608",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d130941735",
+            "name": "Building",
+            "pluralName": "Buildings",
+            "shortName": "Building",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/default_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 7,
+          "usersCount": 6,
+          "tipCount": 0
+        },
+        "venueRatingBlacklisted": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1494888585",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "57092a21498e5814765a6d2c",
+        "name": "iCannye Transformation Gallery",
+        "location": {
+          "address": "2150 S Canalport",
+          "lat": 41.853076,
+          "lng": -87.650509,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 41.853076,
+              "lng": -87.650509
+            }
+          ],
+          "cc": "US",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "United States",
+          "formattedAddress": [
+            "2150 S Canalport",
+            "Chicago, IL",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d110951735",
+            "name": "Salon \/ Barbershop",
+            "pluralName": "Salons \/ Barbershops",
+            "shortName": "Salon \/ Barbershop",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/shops\/salon_barber_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 26,
+          "usersCount": 3,
+          "tipCount": 1
+        },
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1494888585",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "51a8f4fb498eae442fd9f249",
+        "name": "Oasis Barbershop",
+        "location": {
+          "lat": 41.85316,
+          "lng": -87.650762,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 41.85316,
+              "lng": -87.650762
+            }
+          ],
+          "cc": "US",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "United States",
+          "formattedAddress": [
+            "Chicago, IL",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d110951735",
+            "name": "Salon \/ Barbershop",
+            "pluralName": "Salons \/ Barbershops",
+            "shortName": "Salon \/ Barbershop",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/shops\/salon_barber_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 45,
+          "usersCount": 10,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1494888585",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "51d9b3e5454a62dff563c0dc",
+        "name": "Halsted Street South Branch Bridge",
+        "location": {
+          "address": "2340-80 S Halsted Street",
+          "lat": 41.849320468607765,
+          "lng": -87.64649033546446,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 41.849320468607765,
+              "lng": -87.64649033546446
+            }
+          ],
+          "postalCode": "60608",
+          "cc": "US",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "United States",
+          "formattedAddress": [
+            "2340-80 S Halsted Street",
+            "Chicago, IL 60608",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1df941735",
+            "name": "Bridge",
+            "pluralName": "Bridges",
+            "shortName": "Bridge",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/parks_outdoors\/bridge_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 47,
+          "usersCount": 12,
+          "tipCount": 0
+        },
+        "venueRatingBlacklisted": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1494888585",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4b80ab02f964a520e88430e3",
+        "name": "Dunkin Donuts",
+        "location": {
+          "address": "2477 S Archer Ave",
+          "crossStreet": "at Halsted",
+          "lat": 41.84700544091021,
+          "lng": -87.64615892140628,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 41.84700544091021,
+              "lng": -87.64615892140628
+            }
+          ],
+          "postalCode": "60616",
+          "cc": "US",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "United States",
+          "formattedAddress": [
+            "2477 S Archer Ave (at Halsted)",
+            "Chicago, IL 60616",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d148941735",
+            "name": "Donut Shop",
+            "pluralName": "Donut Shops",
+            "shortName": "Donuts",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/donuts_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": true,
+        "stats": {
+          "checkinsCount": 1665,
+          "usersCount": 463,
+          "tipCount": 7
+        },
+        "hasMenu": true,
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "storeId": "337399",
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1494888585",
+        "venueChains": [
+          {
+            "id": "556f676fbd6a75a99038d8f0"
+          }
+        ],
+        "hasPerk": false
+      },
+      {
+        "id": "51953691498e3a9d5a7e292c",
+        "name": "HCSC",
+        "location": {
+          "lat": 41.850207,
+          "lng": -87.647891,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 41.850207,
+              "lng": -87.647891
+            }
+          ],
+          "cc": "US",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "United States",
+          "formattedAddress": [
+            "Chicago, IL",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d130941735",
+            "name": "Building",
+            "pluralName": "Buildings",
+            "shortName": "Building",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/default_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 3,
+          "usersCount": 3,
+          "tipCount": 0
+        },
+        "venueRatingBlacklisted": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1494888585",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4b761349f964a520fb3a2ee3",
+        "name": "Chicago Urban Art Society (CUAS)",
+        "location": {
+          "address": "2229 S Halsted St",
+          "crossStreet": "at W. Cullerton St",
+          "lat": 41.85283177439667,
+          "lng": -87.64198641472929,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 41.85283177439667,
+              "lng": -87.64198641472929
+            }
+          ],
+          "postalCode": "60608",
+          "cc": "US",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "United States",
+          "formattedAddress": [
+            "2229 S Halsted St (at W. Cullerton St)",
+            "Chicago, IL 60608",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1e2931735",
+            "name": "Art Gallery",
+            "pluralName": "Art Galleries",
+            "shortName": "Art Gallery",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/arts_entertainment\/artgallery_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 295,
+          "usersCount": 245,
+          "tipCount": 2
+        },
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1494888585",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4b4e1479f964a520cde026e3",
+        "name": "Mangia Fresca",
+        "location": {
+          "address": "2556 S Archer Ave",
+          "crossStreet": "Halsted",
+          "lat": 41.84628780610476,
+          "lng": -87.64854372792634,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 41.84628780610476,
+              "lng": -87.64854372792634
+            }
+          ],
+          "postalCode": "60608",
+          "cc": "US",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "United States",
+          "formattedAddress": [
+            "2556 S Archer Ave (Halsted)",
+            "Chicago, IL 60608",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d110941735",
+            "name": "Italian Restaurant",
+            "pluralName": "Italian Restaurants",
+            "shortName": "Italian",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/italian_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": true,
+        "stats": {
+          "checkinsCount": 893,
+          "usersCount": 363,
+          "tipCount": 22
+        },
+        "hasMenu": true,
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "venuePage": {
+          "id": "33349733"
+        },
+        "storeId": "",
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1494888585",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4c411b99d691c9b6095b8c0a",
+        "name": "Lacuna Artist Lofts and Studios",
+        "location": {
+          "address": "2150 S Canalport Ave",
+          "crossStreet": "Cermak\/Morgan",
+          "lat": 41.85329208032571,
+          "lng": -87.65051892785215,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 41.85329208032571,
+              "lng": -87.65051892785215
+            }
+          ],
+          "postalCode": "60608",
+          "cc": "US",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "United States",
+          "formattedAddress": [
+            "2150 S Canalport Ave (Cermak\/Morgan)",
+            "Chicago, IL 60608",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d130941735",
+            "name": "Building",
+            "pluralName": "Buildings",
+            "shortName": "Building",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/default_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": true,
+        "stats": {
+          "checkinsCount": 2828,
+          "usersCount": 1494,
+          "tipCount": 8
+        },
+        "venueRatingBlacklisted": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "venuePage": {
+          "id": "66275205"
+        },
+        "storeId": "",
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1494888585",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "552a814b498eddb919c2e99a",
+        "name": "El Paseo Community Garden",
+        "location": {
+          "address": "944 W 21st St",
+          "crossStreet": "Sangamon",
+          "lat": 41.85453201746262,
+          "lng": -87.64983484389789,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 41.85453201746262,
+              "lng": -87.64983484389789
+            }
+          ],
+          "postalCode": "60608",
+          "cc": "US",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "United States",
+          "formattedAddress": [
+            "944 W 21st St (Sangamon)",
+            "Chicago, IL 60608",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d15a941735",
+            "name": "Garden",
+            "pluralName": "Gardens",
+            "shortName": "Garden",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/parks_outdoors\/garden_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 109,
+          "usersCount": 10,
+          "tipCount": 0
+        },
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1494888585",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "537cffa0498ebe933016e86e",
+        "name": "Allure Beauty Lounge",
+        "location": {
+          "lat": 41.853248596191406,
+          "lng": -87.65032196044922,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 41.853248596191406,
+              "lng": -87.65032196044922
+            }
+          ],
+          "cc": "US",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "United States",
+          "formattedAddress": [
+            "Chicago, IL",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1ed941735",
+            "name": "Spa",
+            "pluralName": "Spas",
+            "shortName": "Spa",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/shops\/spa_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 6,
+          "usersCount": 5,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1494888585",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4b536747f964a5201f9b27e3",
+        "name": "Snappy Car Wash",
+        "location": {
+          "address": "3150 S Cicero Ave",
+          "crossStreet": "at 31st St",
+          "lat": 41.84739944849766,
+          "lng": -87.64604329125589,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 41.84739944849766,
+              "lng": -87.64604329125589
+            }
+          ],
+          "postalCode": "60804",
+          "cc": "US",
+          "city": "Cicero",
+          "state": "IL",
+          "country": "United States",
+          "formattedAddress": [
+            "3150 S Cicero Ave (at 31st St)",
+            "Cicero, IL 60804",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4c38df4de52ce0d596b336e1",
+            "name": "Parking",
+            "pluralName": "Parking",
+            "shortName": "Parking",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/parking_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 126,
+          "usersCount": 58,
+          "tipCount": 2
+        },
+        "venueRatingBlacklisted": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1494888585",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "5033a9dce4b002cea10a2d6e",
+        "name": "SEIU HCII",
+        "location": {
+          "address": "2229 S Halsted St",
+          "lat": 41.85190776508954,
+          "lng": -87.64611074221256,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 41.85190776508954,
+              "lng": -87.64611074221256
+            }
+          ],
+          "postalCode": "60608",
+          "cc": "US",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "United States",
+          "formattedAddress": [
+            "2229 S Halsted St",
+            "Chicago, IL 60608",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d130941735",
+            "name": "Building",
+            "pluralName": "Buildings",
+            "shortName": "Building",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/default_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 413,
+          "usersCount": 117,
+          "tipCount": 0
+        },
+        "venueRatingBlacklisted": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1494888585",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "528eec6911d288b69698d35c",
+        "name": "Chicago Art Department (East)",
+        "location": {
+          "address": "1932 S Halsted St #100",
+          "crossStreet": "19th",
+          "lat": 41.85572368290774,
+          "lng": -87.64672100543976,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 41.85572368290774,
+              "lng": -87.64672100543976
+            }
+          ],
+          "postalCode": "60608",
+          "cc": "US",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "United States",
+          "formattedAddress": [
+            "1932 S Halsted St #100 (19th)",
+            "Chicago, IL 60608",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1e2931735",
+            "name": "Art Gallery",
+            "pluralName": "Art Galleries",
+            "shortName": "Art Gallery",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/arts_entertainment\/artgallery_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 88,
+          "usersCount": 81,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1494888585",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4ba2a35bf964a520920b38e3",
+        "name": "CTA Bus 62",
+        "location": {
+          "crossStreet": "Archer",
+          "lat": 41.84637676221414,
+          "lng": -87.65111628855007,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 41.84637676221414,
+              "lng": -87.65111628855007
+            }
+          ],
+          "postalCode": "60632",
+          "cc": "US",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "United States",
+          "formattedAddress": [
+            "Archer",
+            "Chicago, IL 60632",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d12b951735",
+            "name": "Bus Line",
+            "pluralName": "Bus Lines",
+            "shortName": "Bus",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/travel\/busstation_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 633,
+          "usersCount": 128,
+          "tipCount": 2
+        },
+        "venueRatingBlacklisted": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1494888585",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "53e05905498ecd25b9e6b423",
+        "name": "2500 South",
+        "location": {
+          "address": "2500 S Halsted St",
+          "crossStreet": "Archer & Halsted",
+          "lat": 41.84707602880224,
+          "lng": -87.6468671496851,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 41.84707602880224,
+              "lng": -87.6468671496851
+            }
+          ],
+          "postalCode": "60608",
+          "cc": "US",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "United States",
+          "formattedAddress": [
+            "2500 S Halsted St (Archer & Halsted)",
+            "Chicago, IL 60608",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4d954b06a243a5684965b473",
+            "name": "Residential Building (Apartment \/ Condo)",
+            "pluralName": "Residential Buildings (Apartments \/ Condos)",
+            "shortName": "Residential",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/apartment_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 10,
+          "usersCount": 6,
+          "tipCount": 0
+        },
+        "venueRatingBlacklisted": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1494888585",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "573db9ed498e64893bd98fe2",
+        "name": "Great Lakes Home",
+        "location": {
+          "lat": 41.855198,
+          "lng": -87.646265,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 41.855198,
+              "lng": -87.646265
+            }
+          ],
+          "postalCode": "60608",
+          "cc": "US",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "United States",
+          "formattedAddress": [
+            "Chicago, IL 60608",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1ff941735",
+            "name": "Miscellaneous Shop",
+            "pluralName": "Miscellaneous Shops",
+            "shortName": "Shop",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/shops\/default_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 16,
+          "usersCount": 15,
+          "tipCount": 1
+        },
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1494888585",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "51d31e46498ed9496b8073f7",
+        "name": "The 9 to 5!",
+        "location": {
+          "lat": 41.852525883800496,
+          "lng": -87.64947834537769,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 41.852525883800496,
+              "lng": -87.64947834537769
+            }
+          ],
+          "cc": "US",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "United States",
+          "formattedAddress": [
+            "Chicago, IL",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d174941735",
+            "name": "Coworking Space",
+            "pluralName": "Coworking Spaces",
+            "shortName": "Coworking Space",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/office_coworkingspace_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 42,
+          "usersCount": 2,
+          "tipCount": 0
+        },
+        "venueRatingBlacklisted": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1494888585",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "5724371e498efc35a43988c8",
+        "name": "Truong",
+        "location": {
+          "address": "2300 S Halted St",
+          "lat": 41.851451,
+          "lng": -87.646993,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 41.851451,
+              "lng": -87.646993
+            }
+          ],
+          "cc": "US",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "United States",
+          "formattedAddress": [
+            "2300 S Halted St",
+            "Chicago, IL",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "52e81612bcbc57f1066b7a36",
+            "name": "Warehouse",
+            "pluralName": "Warehouses",
+            "shortName": "Warehouse",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/default_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 4,
+          "usersCount": 4,
+          "tipCount": 0
+        },
+        "venueRatingBlacklisted": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1494888585",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "54b887d2498efb92434dce29",
+        "name": "Downtown Dogs Chicago",
+        "location": {
+          "address": "2440 W Hubbard St",
+          "crossStreet": "1",
+          "lat": 41.84959219368841,
+          "lng": -87.64691948890686,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 41.84959219368841,
+              "lng": -87.64691948890686
+            }
+          ],
+          "postalCode": "60612",
+          "cc": "US",
+          "city": "Chicago",
+          "state": "IL",
+          "country": "United States",
+          "formattedAddress": [
+            "2440 W Hubbard St (1)",
+            "Chicago, IL 60612",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1e5941735",
+            "name": "Dog Run",
+            "pluralName": "Dog Runs",
+            "shortName": "Dog Run",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/parks_outdoors\/dogrun_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 1,
+          "usersCount": 1,
+          "tipCount": 6
+        },
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1494888585",
+        "venueChains": [],
+        "hasPerk": false
+      }
+    ],
+    "confident": true,
+    "geocode": {
+      "what": "",
+      "where": "chicago",
+      "feature": {
+        "cc": "US",
+        "name": "Chicago",
+        "displayName": "Chicago, IL, United States",
+        "matchedName": "Chicago, IL, United States",
+        "highlightedName": "<b>Chicago<\/b>, IL, United States",
+        "woeType": 7,
+        "slug": "chicago-illinois",
+        "id": "geonameid:4887398",
+        "longId": "72057594042815334",
+        "geometry": {
+          "center": {
+            "lat": 41.85003,
+            "lng": -87.65005
+          },
+          "bounds": {
+            "ne": {
+              "lat": 42.023134999999996,
+              "lng": -87.52366099999999
+            },
+            "sw": {
+              "lat": 41.644286,
+              "lng": -87.940101
+            }
+          }
+        }
+      },
+      "parents": []
+    }
+  }
+}

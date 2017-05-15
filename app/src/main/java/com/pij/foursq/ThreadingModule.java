@@ -20,13 +20,13 @@ public class ThreadingModule {
 
     @Provides
     @Named(MAIN_THREAD)
-    static Scheduler provideMainThread() {
+    Scheduler provideMainThread() {
         return AndroidSchedulers.mainThread();
     }
 
     @Provides
     @Named(BACKGROUND_THREAD)
-    static Scheduler provideBackground() {
+    Scheduler provideBackground() {
         return Schedulers.io();
     }
 
