@@ -9,4 +9,5 @@
 .externalNativeBuild
 .idea/gradle.xml
 .idea/shelf/
+.idea/caches/
 app/fabric.properties

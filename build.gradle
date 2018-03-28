@@ -1,11 +1,74 @@
+buildscript {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        google()
+        jcenter()
+        maven {
+            name "gradle-plugins"
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.0'
+    }
+}
+
+allprojects {
+    buildscript {
+        repositories {
+            mavenLocal()
+            mavenCentral()
+            google()
+            jcenter()
+            maven {
+                name "gradle-plugins"
+                url "https://plugins.gradle.org/m2/"
+            }
+        }
+    }
+
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        google()
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+
+    ext.calculateVersionCode = { String versionName ->
+        def shortVersion = versionName.split("-", 2)[0]
+        def strings = shortVersion.split("\\.", 3)
+        def numbers = strings.collect {
+            try {
+                it.toInteger()
+            } catch (ignored) {
+                0
+            }
+        }
+        while (numbers.size < 3) {
+            numbers.add(0)
+        }
+        def result = 0
+        numbers.eachWithIndex { number, i ->
+            if (i < 3) {
+                result = result * 1000 + number
+            }
+        }
+        result
+    }
+
+}
+
+
 ext {
     ciBuild = "true" == System.env['CI']
 
     sourceCompatibility = 1.8
     targetCompatibility = 1.8
 
-    compileSdkVersion = 25
-    buildToolsVersion = '25.0.3'
+    compileSdkVersion = 27
     minSdkVersion = 21
     targetSdkVersion = 25
     retrolambdaVersion = '3.6.1'
@@ -42,7 +105,6 @@ ext {
     retrofitVersion = '2.3.0'
     okHttpVersion = '3.8.0'
 }
-
 
 task clean(type: Delete) {
     delete rootProject.buildDir
