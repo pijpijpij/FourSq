@@ -19,15 +19,17 @@ android:
   components:
   - tools
   - platform-tools
-  - build-tools-25.0.3
-  - android-25
+  - tools
+  - build-tools-27.0.3
+  - android-27
+  - ${ANDROID_TARGET}
   - extra-android-m2repository
   - sys-img-${ANDROID_ABI}-${ANDROID_TARGET}
 
 before_script:
-  # Install the shared gradle init file
-  - mkdir -p $HOME/.gradle
-  - wget https://bitbucket.org/pijpijpij/init-gradle/raw/master/init.gradle -O $HOME/.gradle/init.gradle
+  # List available SDKs, emulators...
+  - android list targets
+  - android list sdk --no-ui --all --extended
 
   # start an emulator
   - echo no | android create avd --force -n test -t $ANDROID_TARGET --abi $ANDROID_ABI
